@@ -1,0 +1,29 @@
+[33mcommit 25548bae8f6b27a6dd9b4b9be48d669181a7f167[m[33m ([m[1;36mHEAD -> [m[1;32mmaster[m[33m, [m[1;31morigin/master[m[33m)[m
+Author: Rayepes <rayepes01@gmail.com>
+Date:   Tue Apr 14 15:19:53 2020 -0400
+
+    Agregamos Vistas, css, js, plantilla Corregimos rutas,
+
+[33mcommit 7554cf5b9cd153da234ac5f39a0aecb7fb0e64b2[m[33m ([m[1;32mBr_002[m[33m, [m[1;32mBr_001[m[33m)[m
+Author: Rayepes <rayepes01@gmail.com>
+Date:   Tue Apr 14 12:29:02 2020 -0400
+
+    inicial
+
+[33mcommit c1868dffaa032c712a610c626f9df1880e6f4171[m
+Author: Rayepes <rayepes01@gmail.com>
+Date:   Tue Apr 14 12:26:57 2020 -0400
+
+    first commit
+
+[33mcommit 8eb88f4896454b243269bad0e48e971574e8280f[m
+Author: Rayepes <rayepes01@gmail.com>
+Date:   Tue Apr 14 12:19:02 2020 -0400
+
+    Proyecto Basico Creacion de Rutas modernas, namespaces, conexcion a la base de datos. Composer (routes)
+
+[33mcommit cf5de48f132089626304ab62ab645c8c5e67e504[m
+Author: Rayepes <rayepes01@gmail.com>
+Date:   Tue Apr 14 11:54:30 2020 -0400
+
+    CONFIGURACION ABSICA DE RUTAS Y CONEXIONA A LA BASE DE DATOS. ADEMAS CONFIGURACION INCIAL DE COMPOSER, RUTAS, NAMESPACE
