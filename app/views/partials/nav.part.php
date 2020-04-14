@@ -14,34 +14,32 @@
          </div>
          <div class="collapse navbar-collapse navbar-right" id="menu">
             <ul class="nav navbar-nav">
-              <li class="lien ">
-              <a href="/home">
+              <li class="<?= ruta\app\utils\Utils::esOpcionMenuActiva('home') ? 'active' : '' ?> lien">
+              <a href="<?= ruta\app\utils\Utils::esOpcionMenuActiva('home') ? '#' : 'home' ?>">
               <i class="fa fa-home sr-icons"></i> Home</a></li>
 
-              <li class="lien ">
-              <a href="/about">
+              <li class="<?= ruta\app\utils\Utils::esOpcionMenuActiva('about') ? 'active' : '' ?> lien">
+              <a  href="<?= ruta\app\utils\Utils::esOpcionMenuActiva('about') ? '#' : 'about' ?>">
               <i class="fa fa-bookmark sr-icons"></i> About</a>
               </li>
               
-              <li class="lien ">
-              <a href="/blog">
+              <li class="<?= ruta\app\utils\Utils::esOpcionMenuActiva('blog') ? 'active' : '' ?> lien">
+              <a  href="<?= ruta\app\utils\Utils::esOpcionMenuActiva('blog') ? '#' : 'blog' ?>">
               <i class="fa fa-file-text sr-icons"></i> Blog</a>
               </li>
-
               
-              
-              <li class="lien ">
-              <a href="/contact">
+              <li class="<?= ruta\app\utils\Utils::esOpcionMenuActiva('contact') ? 'active' : '' ?> lien">
+              <a  href="<?= ruta\app\utils\Utils::esOpcionMenuActiva('contact') ? '#' : 'contact' ?>">
               <i class="fa fa-phone-square sr-icons"></i> Contact</a>
               </li>
 
-              <li class="lien ">
-              <a href="/galeria">
+              <li class="<?= ruta\app\utils\Utils::esOpcionMenuActiva('galeria') ? 'active' : '' ?> lien ">
+              <a  href="<?= ruta\app\utils\Utils::esOpcionMenuActiva('galeria') ? '#' : 'galeria' ?>">
               <i class="fa fa-image sr-icons"></i> Galeria</a>
               </li>
 
-              <li class="">
-              <a href="/asociados">
+              <li class="<?= ruta\app\utils\Utils::esOpcionMenuActiva('asociados') ? 'active' : '' ?> ">
+              <a  href="<?= ruta\app\utils\Utils::esOpcionMenuActiva('asociados') ? '#' : 'asociados' ?>">
               <i class="fa fa-hand-o-right sr-icons"></i> Asociados</a>
               </li>
 

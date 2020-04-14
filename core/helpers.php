@@ -1,5 +1,7 @@
 <?php
 
+use ruta\app\Utils;
+
 /**
  * Require a view.
  *
@@ -9,7 +11,7 @@
 function view($name, $data = [])
 {
     extract($data);
-
+    
     return require "../app/views/{$name}.view.php";
 }
 

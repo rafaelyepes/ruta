@@ -4,7 +4,6 @@
 //use App\Core\Database\{QueryBuilder, Connection};
 
 
-
 //use Nomproyecto\{Router, Request};
 
 //App::bind('config', require __DIR__.'../../app/config.php');
