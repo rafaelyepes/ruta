@@ -1,6 +1,6 @@
 <?php
 
-namespace Nomproyecto;
+namespace ruta\app;
 
 class Request
 {

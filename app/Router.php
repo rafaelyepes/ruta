@@ -1,6 +1,6 @@
 <?php
 
-namespace Nomproyecto;
+namespace ruta\app;
 
 class Router
 {
@@ -75,7 +75,7 @@ class Router
      */
     protected function callAction($controller, $action)
     {
-        $controller = "App\\Controllers\\{$controller}";
+        $controller = "ruta\app\Controllers\\{$controller}";
         $controller = new $controller;
 
         if (! method_exists($controller, $action)) {

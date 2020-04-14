@@ -1,8 +1,6 @@
 {
     "autoload": {
-        "classmap": [
-            "./"
-        ],
+        "psr-4": { "ruta\\": ""},
         "files": ["core/helpers.php"]
     }
 }
